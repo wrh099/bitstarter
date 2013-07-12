@@ -1,5 +1,6 @@
 var express = require('express');
 var fs = require('fs');
+var rest = require('restler');
 var app = express.createServer(express.logger());
 var msg = fs.readFileSync('index.html');
 
